@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:56103/",
+      "applicationUrl": "http://localhost:62887/",
       "sslPort": 0
     }
   },
@@ -11,24 +11,22 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "JWTwebApi": {
+    "CoreFrontEnd": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:56102/"
+      "applicationUrl": "http://localhost:62888/"
     },
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://localhost:{ServicePort}/api/values"
+      "launchUrl": "{Scheme}://localhost:{ServicePort}"
     }
   }
 }
